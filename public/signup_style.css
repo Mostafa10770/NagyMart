@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #4a261a, #b27519, #dd610e);
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvorjzUJUF2Rf6vQzsZ8LjhCVB36JVBR9SNA&usqp=CAU");
+    background: rgb(244, 203, 248); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: whitesmoke;
+
+}
+
+.header{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvorjzUJUF2Rf6vQzsZ8LjhCVB36JVBR9SNA&usqp=CAU"); */
+     background-color: #a7a6b1; 
+    padding: 30px 0;
+}
+
+.header h2{
+    color: rgb(244, 236, 236);
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form{
+    padding: 40px;
+}
+
+.form-control{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 12px;
+    display: block;
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input{
+    border-color: #ccc;
+   
+}
+
+.form-control.error input{
+    border-color: #df3434;
+}
+
+.form-control i {
+    position: absolute;
+    right: 12px;
+    top: 40px;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form-control small{
+    color: #df3434;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle{
+    color: #39df7e;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #df3434;
+    visibility: visible;
+}
+
+.form .btn{
+    background-color: #45a049;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form .btn:hover{
+    background-color: #45a049;
+}

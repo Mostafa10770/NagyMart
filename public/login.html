@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+         <form method="POST" action="LoginAction">
+            <a class="d-none d-md-block ms-5 w-50" href="./home.html">
+                <img class="logo-name w-75 img-fluid ms-4" src="./nagymart.svg" alt="logo and name of website" />
+            </a>
+            <h2 class="center">Login</h2>
+            <hr>
+            <!--  -->
+            <center>
+              <div class="error" style="display: none; color: red;">Invalid Login Credentials, <a href="signup.html">sign up now!</a> </div>
+              <div class="error" style="display: none; color: darkred;"><a href="signup.html">sign up now!</a></div>
+            </center>  
+            <!--  -->
+            <label for="regnum">regnum:</label><br>
+            <input type="text" id="regnum" name="regnum" placeholder="Mostafa Hassan"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="********"><br>
+            <div class="form-control">
+              <label for="role">College:</label>
+              <select name="colege" id="colege">
+                <option value="nul"></option>
+                <option value="AI">Artificial Intelligence</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Pharmacy">Pharmacy</option>
+                <option value="Dentistry">Dentistry</option>
+              </select>
+            </div>
+            <button type="submit">Log In</button>
+            <div id="message"></div>
+         </form>
+         <!--  -->
+         <script>
+          // Show the error message if the "error" query parameter is present
+          const error = new URLSearchParams(window.location.search).get('error');
+          if (error) {
+            document.querySelector('.error').style.display = 'block';
+          }
+        </script>
+         <!--  -->
+      </div>
+</body>
+</html>
