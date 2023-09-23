@@ -2,6 +2,15 @@
 
 Welcome to **NagyMart**, your one-stop destination for all your tool and equipment needs as an AAST (Arab Academy for Science, Technology, and Maritime Transport) student at Al Alamain campus. This web application is designed to provide students with a seamless and convenient shopping experience, allowing them to purchase tools both online and offline, right within the campus.
 
+
+![NagyMart Logo](https://github.com/Mostafa10770/NagyMart/blob/master/Main%20page.png)
+
+
+
+
+
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -41,7 +50,7 @@ To get started with NagyMart, follow these simple steps:
 4. Run the application on your local server.
 
 ## Usage
-
+![NagyMart Logo](https://github.com/Mostafa10770/NagyMart/blob/master/login.png)
 ### For Students
 1. Visit the NagyMart website.
 2. Browse the departments and select the tools you need.
@@ -52,7 +61,7 @@ To get started with NagyMart, follow these simple steps:
 ### For Offline Market Cashiers
 1. Log in to the cashier portal.
 2. Manage orders, process payments, and keep track of inventory.
-
+![NagyMart Logo](https://github.com/Mostafa10770/NagyMart/blob/master/Casher%20.png)
 ## Technology Stack
 
 - **Frontend**:
@@ -62,13 +71,7 @@ To get started with NagyMart, follow these simple steps:
 
 - **Backend**:
   - Node.js with Express.js
-  - MongoDB for data storage
 
-- **Payment Integration**:
-  - [Add payment gateway here]
-
-- **Authentication**:
-  - Passport.js for user authentication
 
 ## Contributing
 
@@ -78,10 +81,3 @@ We welcome contributions from the open-source community. If you would like to co
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Thank you for choosing NagyMart as your go-to destination for all your tool needs. We hope this platform makes your academic journey at AAST Al Alamain even more convenient and enjoyable. If you have any questions, suggestions, or feedback, please don't hesitate to reach out to us.
-
-Happy shopping!
-
-*Note: Don't forget to replace "[Add payment gateway here]" with the actual payment gateway used in your project.*
